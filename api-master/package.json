@@ -1,0 +1,32 @@
+{
+  "name": "api-master",
+  "version": "2.0.0",
+  "description": "A path-finding algorithm visualiser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Samuel Price",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.656.0",
+    "@aws-sdk/client-s3": "^3.657.0",
+    "@aws-sdk/client-sqs": "^3.682.0",
+    "@aws-sdk/lib-dynamodb": "^3.656.0",
+    "@aws-sdk/s3-request-presigner": "^3.657.0",
+    "aws-jwt-verify": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.5.1",
+    "express-validator": "^7.2.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.6",
+    "mongoose": "^8.5.4",
+    "morgan": "^1.10.0",
+    "uuid": "^11.0.2"
+  }
+}

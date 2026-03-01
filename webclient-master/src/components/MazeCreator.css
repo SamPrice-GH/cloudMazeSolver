@@ -1,0 +1,46 @@
+.maze-creator-container {
+    width: 90%;
+    max-height: 30%;
+    background-color: #0E0F19;
+    box-shadow: 0 0 1rem 0.5rem rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: left;
+    color: #fff;    
+    overflow-y: auto;
+}
+
+.maze-creator-table {
+    table-layout: fixed;
+    text-align: center;
+}
+
+.maze-creator-table td {
+    border-top: 1px solid white;
+}
+
+.maze-creator-table input[type="submit"] {
+    background-color: #24263f;
+    border: none;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.maze-creator-table input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.maze-creator-table input[type="submit"]:active {
+    translate: 0 4px;
+}

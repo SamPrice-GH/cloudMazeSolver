@@ -1,0 +1,37 @@
+# THIS IS TO RUN THE APPLICATION FROM THIS DIRECTORY
+# intended for local development only
+
+services:
+  api:
+    build:
+      context: ./api-master 
+    container_name: cms-api
+    networks:
+      - cms
+    volumes:
+      - ./api-master:/app 
+    working_dir: /app
+    command: >
+      /bin/sh -c "
+      node populatedb.js &&
+      npm start"
+    ports:
+      - "8080:8080"
+
+  webclient:
+    build:
+      context: ./webclient-master
+      args:
+        - API_SERVER_PORT=8080
+    container_name: cms-webclient
+    networks:
+      - cms
+    ports:
+      - "80:3000"
+    depends_on:
+      - api
+
+networks:
+  cms:
+  
+

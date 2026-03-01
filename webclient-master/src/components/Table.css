@@ -1,0 +1,81 @@
+.table-height-limiter {
+    height: 100%;
+}
+
+.solve-table-container {
+    flex: 0 0 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.maze-table-container {
+    flex: 0 0 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow-y: hidden;
+}
+
+.menu-table th {
+    padding: 8px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    background-color: #24263f;
+}
+
+.menu-table thead {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #fcfcfc1f; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff2f; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+
+.menu-row {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-row:hover {
+    transform: scale(1.1); 
+    background-color: #4b4f81; 
+    cursor:pointer;
+}
+
+.menu-row.disabled:hover {
+    transform: scale(1); 
+    background-color: #0E0F19; 
+    cursor:not-allowed;
+}
+
+.menu-row td {
+    padding: 16px;
+    text-align: center;
+}
+
+.highlighted {
+    background-color: #2d2e3b;
+}

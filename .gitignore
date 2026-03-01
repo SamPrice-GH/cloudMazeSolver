@@ -1,0 +1,101 @@
+# api
+
+# dependencies
+api-master/node_modules
+api-master/.pnp
+api-master/.pnp.js
+
+# testing
+api-master/coverage
+
+# production
+api-master/build
+
+# misc
+api-master/.DS_Store
+api-master/.env
+api-master/.env.local
+api-master/.env.development.local
+api-master/.env.test.local
+api-master/.env.production.local
+
+api-master/npm-debug.log*
+api-master/yarn-debug.log*
+api-master/yarn-error.log*
+
+# solver
+
+# dependencies
+mazesolver-master/node_modules
+mazesolver-master/.pnp
+mazesolver-master/.pnp.js
+
+# testing
+mazesolver-master/coverage
+
+# production
+mazesolver-master/build
+
+# misc
+mazesolver-master/.DS_Store
+mazesolver-master/.env
+mazesolver-master/.env.local
+mazesolver-master/.env.development.local
+mazesolver-master/.env.test.local
+mazesolver-master/.env.production.local
+
+mazesolver-master/npm-debug.log*
+mazesolver-master/yarn-debug.log*
+mazesolver-master/yarn-error.log*
+
+# web client
+
+# dependencies
+/webclient-master/node_modules
+/webclient-master/.pnp
+/webclient-master/.pnp.js
+
+# testing
+/webclient-master/coverage
+
+# production
+/webclient-master/build
+
+# misc
+/webclient-master/.DS_Store
+/webclient-master/.env
+/webclient-master/.env.local
+/webclient-master/.env.development.local
+/webclient-master/.env.test.local
+/webclient-master/.env.production.local
+
+/webclient-master/npm-debug.log*
+/webclient-master/yarn-debug.log*
+/webclient-master/yarn-error.log*
+
+# testing repo
+
+# dependencies
+/testing/node_modules
+/testing/.pnp
+/testing/.pnp.js
+
+# testing
+/testing/coverage
+
+# production
+/testing/build
+
+# misc
+/testing/.DS_Store
+/testing/.env.local
+/testing/.env.development.local
+/testing/.env.test.local
+/testing/.env.production.local
+
+/testing/npm-debug.log*
+/testing/yarn-debug.log*
+/testing/yarn-error.log*
+/node_modules
+/testing/.terraform
+.env.example

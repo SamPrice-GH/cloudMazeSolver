@@ -1,0 +1,36 @@
+.nav-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.auth-box {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.auth-box:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.back-box {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.back-box:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

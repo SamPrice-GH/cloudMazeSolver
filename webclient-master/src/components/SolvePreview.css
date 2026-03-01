@@ -1,0 +1,51 @@
+.solve-preview-container {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.disabled-button {
+    background-color: #383838;
+    border: none;
+    width: 90%;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.disabled-button:hover {
+    cursor: not-allowed;
+}
+
+.button-container {
+    margin-top: 30px;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.solve-preview-button {
+    background-color: #24263f; /* Green */
+    border: none;
+    width: 90%;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.solve-preview-button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.solve-preview-button:active {
+    translate: 0 4px;
+}

@@ -1,0 +1,10 @@
+.rendered-maze-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;      
+}
+
+canvas {
+    border: 10px solid #24263f;  
+}
