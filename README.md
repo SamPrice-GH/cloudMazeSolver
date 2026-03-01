@@ -18,6 +18,11 @@ A small full-stack project that solves mazes using pathfinding algorithms, made 
 - Simple pathfinding algorithms implemented: BFS, DFS, Bidirectional Search
 - Docker / Docker Compose
 
+**Architecture**
+![architecture-diagram](https://github.com/SamPrice-GH/cloudMazeSolver/blob/main/cms-architecture-diagram.jpg)
+
+---
+
 **TODO**
 - Setup orchestration via TerraForm
 - Include some redacted images of AWS service config within this README
